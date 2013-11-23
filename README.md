@@ -15,11 +15,11 @@ including following
 
 Build
 
-   make 
+   =>make 
    
-   make clean
+   =>make clean
    
-   make install
+   =>make install
    
  
 Usage 
