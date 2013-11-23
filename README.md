@@ -14,9 +14,13 @@ including following
    data tracer is implemented for faster lookups.
 
 Build
+
    make 
+   
    make clean
+   
    make install
+   
  
 Usage 
   
