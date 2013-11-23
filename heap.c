@@ -256,8 +256,11 @@ end:
     return ret;
 }
 
-/*lookup for a value in the heap.*/
-/*this is a array lookup as heap node are stored in an array*/
+/*lookup for a value in the heap based on heap data */
+/*this is a array lookup as heap node are stored in an array  
+    NOTE: This is lookup based on node data not key so it is O(n) order lookup
+    data_tracer avoids  the complex comparison functions (based on data)
+ */
 H_return_t 
 lookup_data_in_heap(Binary_Heap_t* p_heap ,Binary_HeapNode_t *p_lookup_node,
         uint64_t *p_index ){
