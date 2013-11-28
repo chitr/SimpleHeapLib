@@ -1,3 +1,4 @@
+#Author chitr
 CFLAGS := -fPIC -O0 -g -ggdb -rdynamic -Wall -Wstrict-prototypes 
 LDFLAGS:=-ldl -llog -lpthread 
 CC := gcc
